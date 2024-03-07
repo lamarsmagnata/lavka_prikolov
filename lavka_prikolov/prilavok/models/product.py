@@ -1,5 +1,5 @@
 from django.db import models
-from seller import Seller
+from .seller import Seller
 
 
 class Product(models.Model):
