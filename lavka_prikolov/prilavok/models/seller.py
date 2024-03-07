@@ -8,7 +8,7 @@ class Seller(models.Model):
     date_updated = models.DateTimeField(auto_now=True)
 
     class Meta:
-        ordering = ['-title']
+        ordering = ['-name']
 
     def __str__(self):
         return self.name
