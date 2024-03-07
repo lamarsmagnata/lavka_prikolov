@@ -2,7 +2,7 @@ from django.db import models
 from seller import Seller
 
 
-class Poduct(models.Model):
+class Product(models.Model):
     name = models.CharField(max_lenght=120)
     description = models.TextField()
     price = models.IntegerField()
